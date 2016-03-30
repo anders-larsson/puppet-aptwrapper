@@ -1,0 +1,10 @@
+fixtures:
+  repositories:
+    'stdlib':
+      'repo': 'git://github.com/puppetlabs/puppetlabs-stdlib.git'
+      'ref': '4.5.0'
+    'apt':
+      'repo': 'git://github.com/puppetlabs/puppetlabs-apt.git'
+      'ref': '2.2.2'
+  symlinks:
+    'aptwrapper': "#{source_dir}"
