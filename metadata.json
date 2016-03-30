@@ -1,0 +1,16 @@
+{
+  "name": "aptwrapper",
+  "version": "0.1.0",
+  "author": "anders-larsson",
+  "summary": "Hiera wrapper for puppetlabs/puppetlabs-apt",
+  "license": "Apache-2.0",
+  "source": "https://github.com/anders-larsson/puppet-aptwrapper",
+  "project_page": "https://github.com/anders-larsson/puppet-aptwrapper",
+  "issues_url": "https://github.com/anders-larsson/puppet-aptwrapper/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0",
+     "name": "puppetlabs-apt","version_requirement":">= 2.0.0.0"}
+  ],
+  "data_provider": null
+}
+
